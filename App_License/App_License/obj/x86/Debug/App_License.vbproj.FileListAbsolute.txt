@@ -1,0 +1,8 @@
+D:\SmartGit_Backup\Application-License\App_License\App_License\bin\Debug\App_License.exe
+D:\SmartGit_Backup\Application-License\App_License\App_License\bin\Debug\App_License.pdb
+D:\SmartGit_Backup\Application-License\App_License\App_License\bin\Debug\App_License.xml
+D:\SmartGit_Backup\Application-License\App_License\App_License\obj\x86\Debug\App_License.Resources.resources
+D:\SmartGit_Backup\Application-License\App_License\App_License\obj\x86\Debug\App_License.vbproj.GenerateResource.Cache
+D:\SmartGit_Backup\Application-License\App_License\App_License\obj\x86\Debug\App_License.exe
+D:\SmartGit_Backup\Application-License\App_License\App_License\obj\x86\Debug\App_License.xml
+D:\SmartGit_Backup\Application-License\App_License\App_License\obj\x86\Debug\App_License.pdb
