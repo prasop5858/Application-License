@@ -24,9 +24,9 @@ Partial Class frmLicense
     Private Sub InitializeComponent()
         Me.StatusStrip1 = New System.Windows.Forms.StatusStrip()
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
-        Me.ToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.SoftwareLicenseToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ExitToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.tlsOperation = New System.Windows.Forms.ToolStripMenuItem()
+        Me.tlsSoftware = New System.Windows.Forms.ToolStripMenuItem()
+        Me.tlsExit = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -40,30 +40,30 @@ Partial Class frmLicense
         '
         'MenuStrip1
         '
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripMenuItem1, Me.SoftwareLicenseToolStripMenuItem, Me.ExitToolStripMenuItem})
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.tlsOperation, Me.tlsSoftware, Me.tlsExit})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Size = New System.Drawing.Size(891, 24)
         Me.MenuStrip1.TabIndex = 2
         Me.MenuStrip1.Text = "MenuStrip1"
         '
-        'ToolStripMenuItem1
+        'tlsOperation
         '
-        Me.ToolStripMenuItem1.Name = "ToolStripMenuItem1"
-        Me.ToolStripMenuItem1.Size = New System.Drawing.Size(114, 20)
-        Me.ToolStripMenuItem1.Text = "Operation License"
+        Me.tlsOperation.Name = "tlsOperation"
+        Me.tlsOperation.Size = New System.Drawing.Size(114, 20)
+        Me.tlsOperation.Text = "Operation License"
         '
-        'SoftwareLicenseToolStripMenuItem
+        'tlsSoftware
         '
-        Me.SoftwareLicenseToolStripMenuItem.Name = "SoftwareLicenseToolStripMenuItem"
-        Me.SoftwareLicenseToolStripMenuItem.Size = New System.Drawing.Size(107, 20)
-        Me.SoftwareLicenseToolStripMenuItem.Text = "Software License"
+        Me.tlsSoftware.Name = "tlsSoftware"
+        Me.tlsSoftware.Size = New System.Drawing.Size(107, 20)
+        Me.tlsSoftware.Text = "Software License"
         '
-        'ExitToolStripMenuItem
+        'tlsExit
         '
-        Me.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem"
-        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(37, 20)
-        Me.ExitToolStripMenuItem.Text = "Exit"
+        Me.tlsExit.Name = "tlsExit"
+        Me.tlsExit.Size = New System.Drawing.Size(37, 20)
+        Me.tlsExit.Text = "Exit"
         '
         'frmLicense
         '
@@ -82,8 +82,8 @@ Partial Class frmLicense
     End Sub
     Friend WithEvents StatusStrip1 As System.Windows.Forms.StatusStrip
     Friend WithEvents MenuStrip1 As System.Windows.Forms.MenuStrip
-    Friend WithEvents ToolStripMenuItem1 As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents SoftwareLicenseToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents ExitToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents tlsOperation As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents tlsSoftware As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents tlsExit As System.Windows.Forms.ToolStripMenuItem
 
 End Class

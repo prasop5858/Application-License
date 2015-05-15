@@ -22,8 +22,16 @@ Partial Class frmApplication_License
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        components = New System.ComponentModel.Container
+        Me.SuspendLayout()
+        '
+        'frmApplication_License
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.ClientSize = New System.Drawing.Size(284, 262)
+        Me.Name = "frmApplication_License"
         Me.Text = "frmApplication_License"
+        Me.ResumeLayout(False)
+
     End Sub
 End Class

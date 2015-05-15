@@ -108,8 +108,14 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="frmApplication_License.resx">
+      <DependentUpon>frmApplication_License.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmLicense.resx">
       <DependentUpon>frmLicense.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOS_License.resx">
+      <DependentUpon>frmOS_License.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
