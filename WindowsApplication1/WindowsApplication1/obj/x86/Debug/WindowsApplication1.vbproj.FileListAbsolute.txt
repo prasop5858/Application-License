@@ -1,0 +1,8 @@
+D:\SmartGit_Backup\Application-License\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.exe
+D:\SmartGit_Backup\Application-License\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.pdb
+D:\SmartGit_Backup\Application-License\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.xml
+D:\SmartGit_Backup\Application-License\WindowsApplication1\WindowsApplication1\obj\x86\Debug\WindowsApplication1.Resources.resources
+D:\SmartGit_Backup\Application-License\WindowsApplication1\WindowsApplication1\obj\x86\Debug\WindowsApplication1.vbproj.GenerateResource.Cache
+D:\SmartGit_Backup\Application-License\WindowsApplication1\WindowsApplication1\obj\x86\Debug\WindowsApplication1.exe
+D:\SmartGit_Backup\Application-License\WindowsApplication1\WindowsApplication1\obj\x86\Debug\WindowsApplication1.xml
+D:\SmartGit_Backup\Application-License\WindowsApplication1\WindowsApplication1\obj\x86\Debug\WindowsApplication1.pdb
