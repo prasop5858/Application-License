@@ -7,3 +7,5 @@ D:\SmartGit_Backup\Application-License\License_App\License_App\obj\x86\Debug\Lic
 D:\SmartGit_Backup\Application-License\License_App\License_App\obj\x86\Debug\License_App.exe
 D:\SmartGit_Backup\Application-License\License_App\License_App\obj\x86\Debug\License_App.xml
 D:\SmartGit_Backup\Application-License\License_App\License_App\obj\x86\Debug\License_App.pdb
+D:\SmartGit_Backup\Application-License\License_App\License_App\bin\Debug\License_App.exe.CodeAnalysisLog.xml
+D:\SmartGit_Backup\Application-License\License_App\License_App\bin\Debug\License_App.exe.lastcodeanalysissucceeded
