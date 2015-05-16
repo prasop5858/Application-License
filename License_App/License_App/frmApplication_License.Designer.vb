@@ -31,6 +31,7 @@ Partial Class frmApplication_License
         Me.ClientSize = New System.Drawing.Size(284, 262)
         Me.Name = "frmApplication_License"
         Me.Text = "frmApplication_License"
+        Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Me.ResumeLayout(False)
 
     End Sub

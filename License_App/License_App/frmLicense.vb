@@ -4,7 +4,7 @@
         Close()
     End Sub
 
-    Private Sub tlsOperation_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles tlsOperation.Click       
+    Private Sub tlsOperation_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles tlsOperation.Click
         Me.Hide()
         frmOS_License.Show()
     End Sub
@@ -15,6 +15,7 @@
     End Sub
 
     Private Sub frmLicense_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
-
+        tlsStatus.Text = strVersion
     End Sub
+
 End Class

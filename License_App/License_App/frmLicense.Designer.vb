@@ -27,13 +27,17 @@ Partial Class frmLicense
         Me.tlsOperation = New System.Windows.Forms.ToolStripMenuItem()
         Me.tlsSoftware = New System.Windows.Forms.ToolStripMenuItem()
         Me.tlsExit = New System.Windows.Forms.ToolStripMenuItem()
+        Me.tlsStatus = New System.Windows.Forms.ToolStripStatusLabel()
+        Me.StatusStrip1.SuspendLayout()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
         'StatusStrip1
         '
+        Me.StatusStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.tlsStatus})
         Me.StatusStrip1.Location = New System.Drawing.Point(0, 311)
         Me.StatusStrip1.Name = "StatusStrip1"
+        Me.StatusStrip1.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.StatusStrip1.Size = New System.Drawing.Size(891, 22)
         Me.StatusStrip1.TabIndex = 1
         Me.StatusStrip1.Text = "StatusStrip1"
@@ -65,6 +69,12 @@ Partial Class frmLicense
         Me.tlsExit.Size = New System.Drawing.Size(37, 20)
         Me.tlsExit.Text = "Exit"
         '
+        'tlsStatus
+        '
+        Me.tlsStatus.Name = "tlsStatus"
+        Me.tlsStatus.Size = New System.Drawing.Size(121, 17)
+        Me.tlsStatus.Text = "ToolStripStatusLabel1"
+        '
         'frmLicense
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -74,6 +84,9 @@ Partial Class frmLicense
         Me.Controls.Add(Me.MenuStrip1)
         Me.Name = "frmLicense"
         Me.Text = "License Application"
+        Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
+        Me.StatusStrip1.ResumeLayout(False)
+        Me.StatusStrip1.PerformLayout()
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()
         Me.ResumeLayout(False)
@@ -85,5 +98,6 @@ Partial Class frmLicense
     Friend WithEvents tlsOperation As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents tlsSoftware As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents tlsExit As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents tlsStatus As System.Windows.Forms.ToolStripStatusLabel
 
 End Class
